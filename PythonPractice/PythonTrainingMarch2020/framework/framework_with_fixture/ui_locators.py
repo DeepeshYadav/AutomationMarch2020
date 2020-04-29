@@ -1,0 +1,5 @@
+ABOUT_PAGE_XPATH = '//span[text()="About"]'
+ABOUT_PAGE_XPATH2 = '//a[text()="About"]'
+ABOUT_SELENIUM_XPATH_MSG = '//h1[text()="About Selenium"]'
+DOWNLOAD_PATH_XPATH = '//a[text()="Downloads"]'
+GRID_SERVER_XPATH = '//h2[text()="Selenium Server (Grid)"]'

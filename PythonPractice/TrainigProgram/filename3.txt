@@ -1,0 +1,6 @@
+file2_1: returns a list of command line
+file2_2: Mera juta hai japani
+file2_3: Me nahi janu ye ki tum kya kahoge.
+file2_4: Me nahi janu ye ki tum kya kahoge.
+file2_5: Me nahi janu ye ki tum kya kahoge.
+file2_6: Me nahi janu ye ki tum kya kahoge.

@@ -1,0 +1,17 @@
+ITERATOR :
+
+An iterator is an object that contains a countable number of values.
+An iterator is an object that can be iterated upon, meaning that you
+can traverse through all the values.
+Technically, in Python, an iterator is an object which implements
+the iterator protocol,
+which consist of the methods __iter__() and __next__().
+
+CLOSURE :
+
+The criteria that must be met to create closure in Python are
+summarized in the following points.
+
+1. We must have a nested function (function inside a function).
+2. The nested function must refer to a value defined in the enclosing function.
+3. The enclosing function must return the nested function.

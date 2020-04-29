@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <form action="display" method="post">
+         {% csrf_token %}
+         Firstname <input type="text", name="fname"></br>
+         Lastname  <input type="text", name="lname"></br>
+         Email ID <input type="text", name="email"></br>
+         Address  <input type="text", name="address"></br>
+         Mobile No <input type="text", name="mobile"></br>
+        <input type="submit">
+    </form>
+
+{% endblock %}

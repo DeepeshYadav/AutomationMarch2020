@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.0 on win32)" generated="20200223 20:29:59.348" rpa="false">
+<suite id="s1" name="First Robot File" source="D:\PythonPractice\TrainigProgram\first_robot_file.robot">
+<test id="s1-t1" name="Second Test with loop">
+<kw name="First loop">
+<arguments>
+<arg>${Number}</arg>
+</arguments>
+<kw name="Get Length" library="BuiltIn">
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<arguments>
+<arg>${Number}</arg>
+</arguments>
+<assign>
+<var>${length}</var>
+</assign>
+<msg timestamp="20200223 20:29:59.998" level="INFO">Length is 4</msg>
+<msg timestamp="20200223 20:29:59.998" level="INFO">${length} = 4</msg>
+<status status="PASS" starttime="20200223 20:29:59.996" endtime="20200223 20:29:59.998"></status>
+</kw>
+<kw name="${var} IN RANGE [ ${length} ]" type="for">
+<kw name="${var} = 0" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${number}[${var}]</arg>
+</arguments>
+<status status="PASS" starttime="20200223 20:29:59.998" endtime="20200223 20:29:59.998"></status>
+</kw>
+<status status="PASS" starttime="20200223 20:29:59.998" endtime="20200223 20:30:00.001"></status>
+</kw>
+<kw name="${var} = 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${number}[${var}]</arg>
+</arguments>
+<status status="PASS" starttime="20200223 20:30:00.001" endtime="20200223 20:30:00.004"></status>
+</kw>
+<status status="PASS" starttime="20200223 20:30:00.001" endtime="20200223 20:30:00.004"></status>
+</kw>
+<kw name="${var} = 2" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${number}[${var}]</arg>
+</arguments>
+<status status="PASS" starttime="20200223 20:30:00.004" endtime="20200223 20:30:00.007"></status>
+</kw>
+<status status="PASS" starttime="20200223 20:30:00.004" endtime="20200223 20:30:00.009"></status>
+</kw>
+<kw name="${var} = 3" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${number}[${var}]</arg>
+</arguments>
+<status status="PASS" starttime="20200223 20:30:00.009" endtime="20200223 20:30:00.013"></status>
+</kw>
+<status status="PASS" starttime="20200223 20:30:00.009" endtime="20200223 20:30:00.013"></status>
+</kw>
+<status status="PASS" starttime="20200223 20:29:59.998" endtime="20200223 20:30:00.013"></status>
+</kw>
+<status status="PASS" starttime="20200223 20:29:59.996" endtime="20200223 20:30:00.014"></status>
+</kw>
+<tags>
+<tag>BVT</tag>
+<tag>FULL</tag>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" starttime="20200223 20:29:59.995" endtime="20200223 20:30:00.014" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200223 20:29:59.352" endtime="20200223 20:30:00.020"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">BVT</stat>
+<stat pass="1" fail="0">FULL</stat>
+<stat pass="1" fail="0">Sanity</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="First Robot File">First Robot File</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

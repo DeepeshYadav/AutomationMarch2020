@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+    <table align="Center" border="1" bgcolor="yellow">
+        <th colspan="2">User Details</th>
+        <tr>
+            <td>Firstname</td>
+            <td>{{first_name}}</td>
+        </tr>
+        <tr>
+            <td>Lastname</td>
+            <td>{{last_name}}</td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td>{{email_id}}</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>{{address}}</td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td>{{mobile_no}}</td>
+        </tr>
+    </table>
+{% endblock %}

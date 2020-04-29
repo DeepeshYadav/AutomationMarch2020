@@ -1,0 +1,27 @@
+file2_1: returns a list of command line
+file2_2: Mera juta hai japani
+file1_3:returns a list of command line arguments passed to a Python script.
+file1_4: a list of command line arguments passed to a Python script.
+file1_5: a list of command line arguments passed to a Python script.
+file2_3: Me nahi janu ye ki tum kya kahoge.
+file2_4: Me n
+kumar@gmail.com
+my_name_is_khan@not.uk.in
+ahi janu ye ki tum kya kahoge.
+file2_5: Me nahi janu ye ki tum kya kahoge.
+file2_6: Me nahi janu ye ki tum kya kahoge.
+mujhe dekh kr tum jo jaoge
+vlsadjflij
+mehgh@etc.eng
+hfdhdsf
+dfdkjfkj
+
+750-737-5023
+adsfjakdsf
+deepesh
+Data
+kr liya
+750-737-5024
+Nahi kiya
+kyo nahi kiya n
+rahul@gmail.com

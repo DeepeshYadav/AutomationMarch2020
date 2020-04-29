@@ -1,0 +1,9 @@
+# Following module need to be install
+1. pip install requests
+2. pip install html5lib
+3. pip install bs4
+
+Another way is to download them manually from these links:
+requests
+html5lib
+beautifulsoup4

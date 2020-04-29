@@ -1,0 +1,7 @@
+file1_1: returns a list of command line arguments passed to a Python script.
+file1_2:returns a list of command line arguments passed to a Python script.
+file1_3:returns a list of command line arguments passed to a Python script.
+file1_4: a list of command line arguments passed to a Python script.
+file1_5: a list of command line arguments passed to a Python script.
+file1_6: a list of command line arguments passed to a Python script.
+file1_7: a list of command line arguments passed to a Python script.

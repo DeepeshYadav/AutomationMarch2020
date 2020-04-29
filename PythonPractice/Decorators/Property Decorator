@@ -1,0 +1,5 @@
+There are three type if class decorators
+
+@property
+@class method
+@static method
