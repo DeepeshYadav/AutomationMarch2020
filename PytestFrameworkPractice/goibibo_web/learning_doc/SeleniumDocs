@@ -1,0 +1,23 @@
+-------------------Selenium Waits---------------------
+
+Implicit Wait :
+
+# It applies all the element till web driver life.
+# It poll for the condition and till specified time and if element
+  in fisrt or any other poll it will go ahead , does not wait whole time.
+
+Explicit Wait :
+
+# It applies on specific element for specified time interval.
+# It poll for the condition and till specified time and if element
+   available in first or any other poll it will go ahead , does not wait till whole time.
+
+Static Wait :
+
+# It is wait that apply on specific step in test scripts
+# It will apply on any element.
+# It wait till the time specified blindly.
+
+
+
+

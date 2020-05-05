@@ -57,19 +57,45 @@ def test_select_dates(test_setup_teardown):
 
 
 @pytest.mark.smoke
+@pytest.mark.sanity
 def  test_search_hotel_and_verify(test_setup_teardown):
     """ This test function will search hotels in specific city.
     :return:
     """
-    driver.get("https://www.goibibo.com/")
+    driver.get(GOIBIBO_GO_URL)
     go_to_hotel_page(driver)
     search_hotel(driver, CITYNAME)
     select_checkin_checkout_date(driver, CHECK_IN_DATE, CHECK_OUT_DATE)
     select_guest_and_room(driver, ROOM, GUEST, CHILD)
 
 
+@pytest.mark.alert
+@pytest.mark.sanity
+def test_alert_functionality(test_setup_teardown):
+    driver.get(ALERT_WEB_URL)
+    accept_msg = handle_alert_box(driver)
+    assert accept_msg == ALERT_CONFIRMATION_MSG
 
 
+@pytest.mark.alert2
+@pytest.mark.sanity
+def test_confirm_box_functionality(test_setup_teardown):
+    driver.get(ALERT_WEB_URL)
+    accept_msg = handle_confirm_box(driver, accept=ACCEPT_CONFIRM)
+    if ACCEPT_CONFIRM:
+        assert accept_msg == CONFIRM_OK_MSG
+    else:
+        assert accept_msg == CONFIRM_CANCEL_MSG
+
+
+@pytest.mark.alert3
+def test_prompt_box_functionality(test_setup_teardown):
+    driver.get(ALERT_WEB_URL)
+    accept_msg = handle_prompt_box(driver, input=INPUT_NAME)
+    if INPUT_NAME:
+        assert accept_msg == f"Hello {INPUT_NAME}! How are you today?"
+    else:
+        print("Prompt Cancelled")
 
 
 

@@ -11,3 +11,10 @@ ADD_ADULTS_XPATH = "(//*[text()='Guests & Rooms']//following::span[text()='+'])[
 ADD_CHILD_XPATH = "(//*[text()='Guests & Rooms']//following::span[text()='+'])[2]"
 ADD_ROOMS_GUEST_DONE_BUTTON_XPATH = "(//span[text()='Guests & Rooms']//following::button)[1]"
 SEARCH_HOTEL_BUTTON = "//button[text()='Search Hotels']"
+
+############################  ALERTS ELEMENTS #####################
+
+DISPLAY_ALERT_ID = 'alert'
+DISPLAY_CONFIRM_BOX_ID = 'confirm'
+DISPLAY_PROMPT_BOX_ID = 'prompt'
+MESSAGE_LOCATOR_ID = 'msg'
